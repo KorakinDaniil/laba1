@@ -6,20 +6,20 @@
 #include <algorithm>
 #include <climits>
 
-// Общая проблема
+// РћР±С‰Р°СЏ РїСЂРѕР±Р»РµРјР°
 
-//FIX_ME: Неправильное подключение Windows.h для кодировки
+//FIX_ME: РќРµРїСЂР°РІРёР»СЊРЅРѕРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ Windows.h РґР»СЏ РєРѕРґРёСЂРѕРІРєРё
 //#include <Windows.h>
 
-//FIX_ME: using namespace std; запрещено стандартом
+//FIX_ME: using namespace std; Р·Р°РїСЂРµС‰РµРЅРѕ СЃС‚Р°РЅРґР°СЂС‚РѕРј
 //using namespace std;
 
 // Task1
 
-//FIX_ME: Непонятные названия переменных
+//FIX_ME: РќРµРїРѕРЅСЏС‚РЅС‹Рµ РЅР°Р·РІР°РЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С…
 //void SelectArts(vector<vector<int>>& dp, int k, int s, vector<int>& weights, vector<int>& time);
 
-// Восстанавливает номер выбранных артефактов
+// Р’РѕСЃСЃС‚Р°РЅР°РІР»РёРІР°РµС‚ РЅРѕРјРµСЂ РІС‹Р±СЂР°РЅРЅС‹С… Р°СЂС‚РµС„Р°РєС‚РѕРІ
 void SelectArtifacts(const std::vector<std::vector<int>>& InDp, int InK, int InS,
     const std::vector<int>& InWeights, std::vector<int>& OutSelectedIndices);
 
@@ -35,9 +35,10 @@ int Task3();
 
 // Task4
 
-// Преобразует последовательность цифр в целое число
+// РџСЂРµРѕР±СЂР°Р·СѓРµС‚ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ С†РёС„СЂ РІ С†РµР»РѕРµ С‡РёСЃР»Рѕ
 int ParseNumber(const std::string& InString, size_t& InOutPos);
 
-// Вычисляет значение арифметического выражения
+// Р’С‹С‡РёСЃР»СЏРµС‚ Р·РЅР°С‡РµРЅРёРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРіРѕ РІС‹СЂР°Р¶РµРЅРёСЏ
 int CalculateExpression(const std::string& InString, size_t& InOutPos);
+
 int Task4();
